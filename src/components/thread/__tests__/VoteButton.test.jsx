@@ -31,7 +31,6 @@ describe('VoteButton component', () => {
     );
 
     // Assert
-    expect(true).toBe(false); // Sengaja dibuat gagal untuk bukti CI error
     expect(screen.getByText('2')).toBeInTheDocument();
     expect(screen.getByText('1')).toBeInTheDocument();
   });
