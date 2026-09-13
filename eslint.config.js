@@ -6,7 +6,7 @@ import { defineConfig, globalIgnores } from 'eslint/config';
 import dicodingacademy from 'eslint-config-dicodingacademy';
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  globalIgnores(['dist', 'cypress/**', 'cypress.config.js']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [

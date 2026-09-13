@@ -42,8 +42,8 @@ const CategoryFilter = ({ categories, selectedCategory, onSelectCategory }) => {
       backgroundColor: state.isSelected
         ? 'var(--primary)'
         : state.isFocused
-        ? 'rgba(99, 102, 241, 0.15)'
-        : 'transparent',
+          ? 'rgba(99, 102, 241, 0.15)'
+          : 'transparent',
       color: state.isSelected ? '#ffffff' : 'var(--text-primary)',
       cursor: 'pointer',
       fontSize: '0.875rem',
